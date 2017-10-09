@@ -7,7 +7,7 @@ import time
 
 def main():
 
-    PORT = 1776
+    PORT = 8080
     class Chat_Server(threading.Thread):
             def __init__(self):
                 threading.Thread.__init__(self)
